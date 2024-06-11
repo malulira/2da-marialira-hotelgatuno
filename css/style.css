@@ -1,0 +1,110 @@
+*{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+
+.menu-superior li {
+    list-style: none;
+}
+
+.menu-superior a {
+    text-decoration: none;
+}
+
+.menu-superior p {
+    color: #6e03d3;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h1 { color: #fe6601;
+     font-size: 36px;
+}
+
+h2 {color: #6e03d3;
+    font-size: 24px;
+}
+
+/* Estilo de los textos*/
+
+.texto {
+    font-size: 14px;    
+    color: #6a6968;
+}
+
+
+/* Section Index */
+
+.articulo-index {
+    height: 250;
+    width: 250px;
+}
+
+.articulo-index a {
+    text-decoration: none;
+}
+
+.articulo-index img {
+    width: 100%;
+}
+
+/* Articulo nosotros*/
+
+.articulo-nosotros {
+    height: 250;
+    width: 250px;
+}
+
+.articulo-nosotros img {
+    width: 100%;
+
+}
+
+/* Articulo sercivios*/
+
+.articulo-servicios {
+    height: 250;
+    width: 250px;
+}
+
+.articulo-servicio img {
+    width: 100%;
+}
+
+/* Articulo ong*/
+
+.articulo-ong {
+    height: 250;
+    width: 250px;
+}
+
+.articulo-ong img {
+    width: 100%;
+}
+
+
+/* Estilo de Footer*/
+
+.pie {
+    background-color: #8308f6;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+.pie p {
+    color: rgb(255, 255, 255);
+}
+
+.pie a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.art-contacto {
+    height: 250;
+    width: 250px;
+}
+
+.art-contacto img {
+    width: 100%;
+}
