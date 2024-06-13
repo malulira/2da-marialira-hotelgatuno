@@ -91,14 +91,21 @@ h2 {color: #6e03d3;
     color: rgb(255, 255, 255);
 }
 
-.pie p {
-    color: rgb(255, 255, 255);
+.pie {
+    display: flex;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
 }
 
-.pie a {
-    text-decoration: none;
-    color: #ffffff;
+.pie p{
+    display: flex;
+    justify-content: center;
+ 
 }
+
 
 .art-contacto {
     height: 250;
