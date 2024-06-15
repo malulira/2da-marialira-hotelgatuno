@@ -22,21 +22,26 @@
   <div>
     <header>
         <img src="../assets/Logo Hotel Gatuno.jpg" alt="Logo Hotel Gatuno">
-        <p>El mejor lugar despues del hogar</p>
-        <nav class="menu-superior">
-            <ul>
-                <li><a href="../index.html">HOME</a></li>
-                <li><a href="./nosotros.html">NOSOTROS</a></li>
-                <li><a href="./servicios.html">SERVICIOS</a></li>
-                <li><a href="./ong.html">ONG</a></li>
-                <li><a href="./contacto.html">CONTACTO</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="../index.html"><h5>Home</h5></a>
+                  <a class="nav-link" href="./nosotros.html"><h5>NOSOTROS</h5></a>
+                  <a class="nav-link" href="./servicios.html"><h5>SERVICIOS</h5></a>
+                  <a class="nav-link" href="./ong.html"><h5>ONG</h5></a>
+                  <a class="nav-link" href="./contacto.html"><h5>CONTACTO</h5></a>
+                </div>
+              </div>
+            </div>
+          </nav>
     </header>
-    <main>
-        <h1>NOSOTROS</h1>
-    <section>
-        <article>
+    <main class="principal container">
+    <section class="row">
+        <article class="informacion col-lg-4 col-md-6 col-sm-12">
             <h2>Historia</h2>
             <p class="texto">
                 A los 17 años (2011) viajé desde Trelew a Buenos Aires
@@ -51,54 +56,66 @@
                 Hoy nos encontramos felizmente en nuestra sede del Parque Centenario 
                 en Buenos Aires, podemos decir, “sueño cumplido”
             </p>
-
-            <article>
+        </article>
+        <article class= "informacion col-lg-4 col-md-6 col-sm-12">
                 <h2>Mision</h2>
                 <p class="texto">
                     Nuestra MISIÓN es dar tranquilidad a las familias convirtiéndonos en 
                     el lugar de confianza para la estadía de sus gatitos.Queremos ofrecer 
                     hoteles únicos en los que se asegure confort, relax y bienestar para los 
-                    huéspedes gatunos.
-                </p>
+                    huéspedes gatunos. 
 
-            <article>
+                    Somos el único Resort que ofrece un entorno natural y mucho verde. Además 
+                    ofrecemos los mejores servicios: mimos, cuidados personalizados, circuitos 
+                    aéreos, suites individuales o espacios compartidos, acompañamiento 24hs. 
+                    Con la presencia permanente de su dueña, médica veterinaria.Espacio Gatos es
+                     un verdadero RESORT NATURAL FELINO.También se realiza un proceso de adaptación 
+                     especial y monitoreado.
+                </p>
+        </article>
+        <article class="informacion col-lg-4 col-md-6 col-sm-12">
                     <h2>Vision</h2>
                     <p class="texto">
                         Nuestra VISIÓN es expandir 
                         nuestra propuesta a lo largo de Argentina y Latinoamérica. 
+                        Somos considerados, por distintos medios periodísticos, como 
+                        el mejor Hotel de Gatos de Latinoamérica. Este halago nos enorgullece
+                         y nos estimula a seguir esforzándonos para brindar cada día un mejor 
+                         servicio.
+                         Las habitaciones individuales disminuyen mucho el estrés que le produce
+                          a los gatos el salir de su casa y también facilitan el cuidado personalizado.
+                          Los requisitos sanitarios son los mismos del “espacio compartido”.
                     </p>
-            </article>
+        </article>
     </section>
-
-    <section>
-        <article class="articulo-nosotros">
-            <h2>Juan Sebastian - Medico Veterinario</h2>
-            <img src="../assets/1-equipo-nosotros.jpg" alt="Veterinario">
-        </article>
-        <article class="articulo-nosotros">
-            <h2>Ana Fuentes - Medico Veterinario</h2>
-            <img src="../assets/articulo-nosotros-index.jpg" alt="Veterinaria">
-        </article>
-        <article class="articulo-nosotros">
-            <h2>Laura Moros - Cuidadora</h2>
-            <img src="../assets/3-equipo-nosotros.jpg" alt="Cuidadora">
-        </article>
-        <article class="articulo-nosotros">
-            <h2>Fernando Lopez - Cuidador</h2>
-            <img src="../assets/4-equipo-nosotros.jpg" alt="Cuidador">
-        </article>
-        <article class="articulo-nosotros">
-            <h2>Maria Pineda - Administracion</h2>
-            <img src="../assets/5-equipo-nosotros.jpg" alt="Administracion">
-        </article>
-
-    </section>
-    
     </main>
-
+    <aside class="contenedor2">
+    <section class="row">
+        <article class="articulo-nosotros col-lg-2 col-md-4 col-sm-12">
+            <img src="../assets/1-equipo-nosotros.jpg" alt="Veterinario">
+            <h2>Juan Sebastian  Medico Veterinario</h2>
+        </article>
+        <article class="articulo-nosotros col-lg-2 col-md-4 col-sm-12">
+            <img src="../assets/articulo-nosotros-index.jpg" alt="Veterinaria">
+            <h2>Ana Fuentes  Medico Veterinario</h2>
+        </article>
+        <article class="articulo-nosotros col-lg-2 col-md-4 col-sm-12">
+            <img src="../assets/3-equipo-nosotros.jpg" alt="Cuidadora">
+            <h2>Laura Moros  Cuidadora</h2>
+        </article>
+        <article class="articulo-nosotros col-lg-2 col-md-4 col-sm-12">
+            <img src="../assets/4-equipo-nosotros.jpg" alt="Cuidador">
+            <h2>Fernando Lopez  Cuidador</h2>
+        </article>
+        <article class="articulo-nosotros col-lg-2 col-md-4 col-sm-12">
+            <img src="../assets/5-equipo-nosotros.jpg" alt="Administracion">
+            <h2>Maria Pineda  Administracion</h2>
+        </article>
+    </section>
+    </aside>
     <footer class="pie"> 
         <p>Almagro  Buenos Aires  Argentina  </p>
-        <p>Todos los derechos reservados - Hotel Gatuno - 2024</p>
+        <p>Todos los derechos reservados - Hotel Gatuno  2024</p>
     </footer>
   </div>
 <!--Bs script-->

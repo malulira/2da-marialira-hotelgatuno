@@ -3,23 +3,6 @@
     font-size: 14px;
 }
 
-.menu-superior li {
-    list-style: none;
-}
-
-.menu-superior a {
-    text-decoration: none;
-}
-
-.menu-superior p {
-    color: #6e03d3;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-h1 { color: #fe6601;
-     font-size: 36px;
-}
 
 h2 {color: #6e03d3;
     font-size: 24px;
@@ -33,22 +16,99 @@ h2 {color: #6e03d3;
 }
 
 
+
+/*navbar*/
+
+.navbar-nav h5 {
+    color: #fe6601;
+
+}
+
+
+
 /* Section Index */
 
+.img-principal-index {
+    width: 100%;
+
+}
+
+.img-principal-index img {
+    width: 100%;
+
+}
+
+
 .articulo-index {
-    height: 250;
-    width: 250px;
+    width: 350px;
+    
 }
 
 .articulo-index a {
+    display: flex;
     text-decoration: none;
+    justify-content: center;
+    margin: 20px 0;
+
 }
+
 
 .articulo-index img {
     width: 100%;
+    display: flex;
+    align-items:  center;
+   
+}
+
+.articulo-index h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px
+
+}
+
+.articulos-home{
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 30px 0;
+
+
 }
 
 /* Articulo nosotros*/
+
+
+.row{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+   
+    
+}
+
+
+
+.texto {
+    display: flex;
+    text-align: justify;
+
+}
+
+.informacion{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.informacion h2{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+
 
 .articulo-nosotros {
     height: 250;
@@ -57,8 +117,33 @@ h2 {color: #6e03d3;
 
 .articulo-nosotros img {
     width: 100%;
+    margin: 5px;
 
 }
+
+.container {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+
+.articulo-nosotros h2{
+    color: #6e03d3;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+
+
+}
+
+.contenedor2{
+    margin: 30px;
+
+}
+
+
 
 /* Articulo sercivios*/
 
@@ -82,6 +167,18 @@ h2 {color: #6e03d3;
     width: 100%;
 }
 
+.publicidad {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.publicidad img{
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+
 
 /* Estilo de Footer*/
 
@@ -89,20 +186,19 @@ h2 {color: #6e03d3;
     background-color: #8308f6;
     font-size: 18px;
     color: rgb(255, 255, 255);
-}
-
-.pie {
     display: flex;
     color: #ffffff;
     display: flex;
     justify-content: center;
     flex-direction: column;
-
 }
+
 
 .pie p{
     display: flex;
     justify-content: center;
+    text-align: center;
+    margin-top: 10px;
  
 }
 
