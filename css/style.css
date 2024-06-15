@@ -147,14 +147,62 @@ h2 {color: #6e03d3;
 
 /* Articulo sercivios*/
 
+.container-servicios{
+    width: 100%;
+    flex-direction: row;
+
+
+}
+
 .articulo-servicios {
-    height: 250;
-    width: 250px;
+       width: 100%;
+       display: flex;
+       flex-direction: row-reverse;
+}
+
+.titulo-individual{
+    display: flex;
+    justify-content: end;
+    font-size: 36px;
+    margin: 20px;
+
+}
+
+.titulo-compartido{
+    font-size: 36px;
+    margin: 20px;
+
+}
+
+.texto-servicios{
+    margin: 20px;
+    text-align: justify;
+
+
 }
 
 .articulo-servicio img {
     width: 100%;
+
 }
+
+.compartido{
+    display: flex;
+    flex-direction: row;
+}
+
+.diaria{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 15px;
+
+}
+
+.individual{
+    display: flex;
+    
+}
+
 
 /* Articulo ong*/
 
