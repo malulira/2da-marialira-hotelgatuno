@@ -11,8 +11,9 @@ h2 {color: #6e03d3;
 /* Estilo de los textos*/
 
 .texto {
-    font-size: 14px;    
+    font-size: 18px;    
     color: #6a6968;
+
 }
 
 
@@ -93,6 +94,7 @@ h2 {color: #6e03d3;
 .texto {
     display: flex;
     text-align: justify;
+
 
 }
 
@@ -184,6 +186,7 @@ h2 {color: #6e03d3;
 .articulo-servicio img {
     width: 100%;
 
+
 }
 
 .compartido{
@@ -200,7 +203,13 @@ h2 {color: #6e03d3;
 
 .individual{
     display: flex;
-    
+   
+}
+
+.publicidad {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 
@@ -215,15 +224,49 @@ h2 {color: #6e03d3;
     width: 100%;
 }
 
-.publicidad {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
 
 .publicidad img{
     width: 100%;
     margin-bottom: 30px;
+
+}
+
+.intro-ong{
+    margin: 10px;
+    display: flex;
+
+
+}
+
+.fotos-ong{
+    display: flex;
+    margin: 30px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.texto-ong{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+/*Estilos contacto*/
+
+.info-contacto{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 50px;
+}
+
+
+.rrss{
+    display: flex;
 
 }
 
@@ -252,10 +295,38 @@ h2 {color: #6e03d3;
 
 
 .art-contacto {
-    height: 250;
     width: 250px;
 }
 
 .art-contacto img {
     width: 100%;
+}
+
+/*Media Queries - Solo contactos*/
+
+/*Mobil*/
+@media (max-width: 500px){
+    .art-contacto{
+        width: 120px;
+
+    }
+
+    .info-contacto{
+        width: 100%;
+        padding: 10px;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .rrss{
+        display: flex;
+        justify-content: space-evenly;
+
+
+    }
+
+
+
 }
