@@ -13,6 +13,8 @@ h2 {color: #6e03d3;
 .texto {
     font-size: 18px;    
     color: #6a6968;
+    display: flex;
+    text-align: justify;
 
 }
 
@@ -78,6 +80,12 @@ h2 {color: #6e03d3;
 
 }
 
+.publicidad {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 /* Articulo nosotros*/
 
 
@@ -85,17 +93,6 @@ h2 {color: #6e03d3;
     display: flex;
     width: 100%;
     justify-content: center;
-   
-    
-}
-
-
-
-.texto {
-    display: flex;
-    text-align: justify;
-
-
 }
 
 .informacion{
@@ -136,8 +133,7 @@ h2 {color: #6e03d3;
     font-size: 24px;
     font-weight: bold;
     text-align: center;
-
-
+    
 }
 
 .contenedor2{
@@ -150,67 +146,47 @@ h2 {color: #6e03d3;
 /* Articulo sercivios*/
 
 .container-servicios{
-    width: 100%;
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
 
-
-}
-
-.articulo-servicios {
-       width: 100%;
-       display: flex;
-       flex-direction: row-reverse;
 }
 
 .titulo-individual{
     display: flex;
     justify-content: end;
-    font-size: 36px;
-    margin: 20px;
-
 }
 
-.titulo-compartido{
-    font-size: 36px;
-    margin: 20px;
+.individual, .diaria{
+    display: flex;
+    flex-direction: row-reverse;
 
 }
 
 .texto-servicios{
+    display: flex;
     margin: 20px;
-    text-align: justify;
+}
+
+.parrafo-1, .parrafo-2{
+    margin: 10px;
+    display: flex;
 
 
 }
 
-.articulo-servicio img {
-    width: 100%;
-
-
-}
 
 .compartido{
     display: flex;
     flex-direction: row;
-}
-
-.diaria{
-    display: flex;
-    flex-direction: row-reverse;
-    margin: 15px;
 
 }
 
-.individual{
-    display: flex;
-   
+/*mobil*/
+@media (max-width: 500px){
+
+
 }
 
-.publicidad {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
 
 
 /* Articulo ong*/
@@ -306,6 +282,73 @@ h2 {color: #6e03d3;
 
 /*Mobil*/
 @media (max-width: 500px){
+    
+    
+ /*Mobil Servicios*/
+ .individual, .diaria{
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+
+   }
+
+   .individual div{
+       justify-content: center;
+
+   }
+
+   .titulo-individual, .titulo-compartido{
+       display: flex;
+       justify-content: center;
+   }
+
+   .texto-servicios{
+       display: flex;
+       flex-direction: column;
+
+   }
+
+
+   .parrafo-1, .parrafo-2{
+       margin: 10px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       flex-wrap: wrap;
+       }
+
+   .imagen-individual, .imagen-compartido
+   .imagen-diaria{
+       width: 100%;
+       display: flex;
+       justify-content: center;
+
+   }    
+
+   .imagen-individual img{
+       width: 450px;
+
+   }
+
+   .imagen-compartido img{
+    width: 450px;
+
+}
+
+    .imagen-diaria img{
+        width: 450px;
+
+    }
+   
+   .compartido{
+       display: flex;   
+       flex-direction: column;
+       justify-content: center;
+  
+      }
+      
+      
+   /*Mobil Contacto*/   
     .art-contacto{
         width: 120px;
 
@@ -328,5 +371,74 @@ h2 {color: #6e03d3;
     }
 
 
+
+}
+
+/*tablet Servicios*/
+@media (min-width: 501px)and
+       (max-width: 960px)
+       {
+
+    .individual, .diaria{
+     display: flex;   
+     flex-direction: column;
+     justify-content: center;
+
+    }
+
+    .individual div{
+        justify-content: center;
+
+    }
+
+    .titulo-individual, .titulo-compartido{
+        display: flex;
+        justify-content: center;
+    }
+
+    .texto-servicios{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    .parrafo-1, .parrafo-2{
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        }
+
+    .imagen-individual, .imagen-compartido, 
+    .imagen-diaria {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }    
+
+    .imagen-individual img{
+        width: 450px;
+
+    }
+
+    .imagen-compartido img{
+        width: 450px;
+
+    }
+    
+    .imagen-diaria img{
+        width: 450px;
+
+    }
+
+    .compartido{
+        display: flex;   
+        flex-direction: column;
+        justify-content: center;
+   
+       }
 
 }
