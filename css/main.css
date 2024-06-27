@@ -24,32 +24,8 @@ h2 {
 .img-principal-index {
   width: 100%;
 }
-
 .img-principal-index img {
   width: 100%;
-}
-
-.articulo-index {
-  width: 350px;
-}
-
-.articulo-index a {
-  display: flex;
-  text-decoration: none;
-  justify-content: center;
-  margin: 20px 0;
-}
-
-.articulo-index img {
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
-
-.articulo-index h2 {
-  font-size: 30px;
-  font-weight: bold;
-  margin: 10px;
 }
 
 .articulos-home {
@@ -58,6 +34,26 @@ h2 {
   width: 100%;
   flex-wrap: wrap;
   margin: 30px 0;
+}
+
+.articulo-index {
+  width: 350px;
+}
+.articulo-index a {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  margin: 20px 0;
+}
+.articulo-index img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.articulo-index h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px;
 }
 
 /* Articulo nosotros*/
@@ -71,7 +67,6 @@ h2 {
   display: flex;
   flex-direction: column;
 }
-
 .informacion h2 {
   display: flex;
   justify-content: center;
@@ -117,6 +112,7 @@ h2 {
   flex-direction: row;
 }
 
+/* ESTILOS ONG*/
 .intro-ong {
   margin: 10px;
   display: flex;
@@ -136,27 +132,30 @@ h2 {
   margin: 50px;
 }
 
+/*ASIDE HOME*/
 .publicidad {
   display: flex;
   justify-content: center;
   width: 100%;
 }
-
 .publicidad img {
   width: 100%;
   margin-bottom: 30px;
+}
+
+/*ASIDE NOSOTROS*/
+.contenedor2 {
+  margin: 30px;
 }
 
 .articulo-nosotros {
   height: 250;
   width: 250px;
 }
-
 .articulo-nosotros img {
   width: 100%;
   margin: 5px;
 }
-
 .articulo-nosotros h2 {
   color: #6e03d3;
   font-size: 24px;
@@ -164,19 +163,7 @@ h2 {
   text-align: center;
 }
 
-.contenedor2 {
-  margin: 30px;
-}
-
-.articulo-ong {
-  height: 250;
-  width: 250px;
-}
-
-.articulo-ong img {
-  width: 100%;
-}
-
+/*ASIDE ONG*/
 .fotos-ong {
   display: flex;
   margin: 30px;
@@ -184,10 +171,27 @@ h2 {
   flex-wrap: wrap;
 }
 
+.articulo-ong {
+  height: 250;
+  width: 250px;
+}
+.articulo-ong img {
+  width: 100%;
+}
+
+/*ASIDE CONTACTO*/
 .rrss {
   display: flex;
 }
 
+.art-contacto {
+  width: 250px;
+}
+.art-contacto img {
+  width: 100%;
+}
+
+/*FOOTER*/
 .pie {
   background-color: #8308f6;
   font-size: 18px;
@@ -198,20 +202,11 @@ h2 {
   justify-content: center;
   flex-direction: column;
 }
-
 .pie p {
   display: flex;
   justify-content: center;
   text-align: center;
   margin-top: 10px;
-}
-
-.art-contacto {
-  width: 250px;
-}
-
-.art-contacto img {
-  width: 100%;
 }
 
 /*tablet Servicios*/

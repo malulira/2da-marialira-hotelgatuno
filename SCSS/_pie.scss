@@ -1,3 +1,4 @@
+/*FOOTER*/
 .pie {
     background-color: #8308f6;
     font-size: 18px;
@@ -7,22 +8,12 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-}
 
-
-.pie p{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 10px;
- 
-}
-
-
-.art-contacto {
-    width: 250px;
-}
-
-.art-contacto img {
-    width: 100%;
+    p{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 10px;
+     
+    }
 }

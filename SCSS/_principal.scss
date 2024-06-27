@@ -17,39 +17,10 @@ h2 {color: #6e03d3;
 .img-principal-index {
     width: 100%;
 
-}
-
-.img-principal-index img {
-    width: 100%;
-
-}
-
-
-.articulo-index {
-    width: 350px;
+    img {
+        width: 100%;
     
-}
-
-.articulo-index a {
-    display: flex;
-    text-decoration: none;
-    justify-content: center;
-    margin: 20px 0;
-
-}
-
-
-.articulo-index img {
-    width: 100%;
-    display: flex;
-    align-items:  center;
-   
-}
-
-.articulo-index h2 {
-    font-size: 30px;
-    font-weight: bold;
-    margin: 10px
+    }
 
 }
 
@@ -59,29 +30,54 @@ h2 {color: #6e03d3;
     width: 100%;
     flex-wrap: wrap;
     margin: 30px 0;
+}
 
+.articulo-index {
+    width: 350px;
 
+    a {
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        margin: 20px 0;
+    
+    }
+
+    img {
+        width: 100%;
+        display: flex;
+        align-items:  center;
+
+    }
+
+    h2 {
+        font-size: 30px;
+        font-weight: bold;
+        margin: 10px
+
+    }
+    
 }
 
 /* Articulo nosotros*/
-
-
 .row{
     display: flex;
     width: 100%;
     justify-content: center;
+
+    
 }
 
 .informacion{
     display: flex;
     flex-direction: column;
 
-}
-
-.informacion h2{
-    display: flex;
-    justify-content: center;
-    margin: 20px;
+    h2{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    
+    }
 
 }
 
@@ -132,6 +128,7 @@ h2 {color: #6e03d3;
 
 }
 
+/* ESTILOS ONG*/
 
 .intro-ong{
     margin: 10px;
