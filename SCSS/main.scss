@@ -1,0 +1,16 @@
+//Reset
+@import './config/vars';
+@import './config/reset';
+@import './config/mixins';
+
+
+//Layout
+@import './cabeza';
+@import './principal';
+@import './pie';
+
+//Media Queries
+@import './mq';
+
+
+
