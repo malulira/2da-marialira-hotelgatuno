@@ -3,4 +3,323 @@
   font-size: 14px;
 }
 
+.navbar-nav h5 {
+  color: #fe6601;
+}
+
+h2 {
+  color: #6e03d3;
+  font-size: 24px;
+}
+
+/* Estilo de los textos*/
+.texto {
+  font-size: 18px;
+  color: #6a6968;
+  display: flex;
+  text-align: justify;
+}
+
+/* Section Index */
+.img-principal-index {
+  width: 100%;
+}
+
+.img-principal-index img {
+  width: 100%;
+}
+
+.articulo-index {
+  width: 350px;
+}
+
+.articulo-index a {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.articulo-index img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.articulo-index h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.articulos-home {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+
+/* Articulo nosotros*/
+.row {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.informacion {
+  display: flex;
+  flex-direction: column;
+}
+
+.informacion h2 {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+/*ojo buscar esta clase*/
+.container {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Articulo sercivios*/
+.container-servicios {
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo-individual {
+  display: flex;
+  justify-content: end;
+}
+
+.individual, .diaria {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.texto-servicios {
+  display: flex;
+  margin: 20px;
+}
+
+.parrafo-1, .parrafo-2 {
+  margin: 10px;
+  display: flex;
+}
+
+.compartido {
+  display: flex;
+  flex-direction: row;
+}
+
+.intro-ong {
+  margin: 10px;
+  display: flex;
+}
+
+.texto-ong {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-contacto {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 50px;
+}
+
+.publicidad {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.publicidad img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.articulo-nosotros {
+  height: 250;
+  width: 250px;
+}
+
+.articulo-nosotros img {
+  width: 100%;
+  margin: 5px;
+}
+
+.articulo-nosotros h2 {
+  color: #6e03d3;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contenedor2 {
+  margin: 30px;
+}
+
+.articulo-ong {
+  height: 250;
+  width: 250px;
+}
+
+.articulo-ong img {
+  width: 100%;
+}
+
+.fotos-ong {
+  display: flex;
+  margin: 30px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.rrss {
+  display: flex;
+}
+
+.pie {
+  background-color: #8308f6;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pie p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.art-contacto {
+  width: 250px;
+}
+
+.art-contacto img {
+  width: 100%;
+}
+
+/*tablet Servicios*/
+@media (min-width: 501px) and (max-width: 960px) {
+  .individual, .diaria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .individual div {
+    justify-content: center;
+  }
+  .titulo-individual, .titulo-compartido {
+    display: flex;
+    justify-content: center;
+  }
+  .texto-servicios {
+    display: flex;
+    flex-direction: column;
+  }
+  .parrafo-1, .parrafo-2 {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .imagen-individual, .imagen-compartido,
+  .imagen-diaria {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .imagen-individual img {
+    width: 450px;
+  }
+  .imagen-compartido img {
+    width: 450px;
+  }
+  .imagen-diaria img {
+    width: 450px;
+  }
+  .compartido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+/*Mobil*/
+@media (max-width: 500px) {
+  /*Mobil Servicios*/
+  .individual, .diaria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .individual div {
+    justify-content: center;
+  }
+  .titulo-individual, .titulo-compartido {
+    display: flex;
+    justify-content: center;
+  }
+  .texto-servicios {
+    display: flex;
+    flex-direction: column;
+  }
+  .parrafo-1, .parrafo-2 {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .imagen-individual, .imagen-compartido .imagen-diaria {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .imagen-individual img {
+    width: 450px;
+  }
+  .imagen-compartido img {
+    width: 450px;
+  }
+  .imagen-diaria img {
+    width: 450px;
+  }
+  .compartido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /*Mobil Contacto*/
+  .art-contacto {
+    width: 120px;
+  }
+  .info-contacto {
+    width: 100%;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .rrss {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

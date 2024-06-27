@@ -1,0 +1,59 @@
+.publicidad {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.publicidad img{
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+
+.articulo-nosotros {
+    height: 250;
+    width: 250px;
+}
+
+.articulo-nosotros img {
+    width: 100%;
+    margin: 5px;
+
+}
+
+.articulo-nosotros h2{
+    color: #6e03d3;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.contenedor2{
+    margin: 30px;
+
+}
+
+
+.articulo-ong {
+    height: 250;
+    width: 250px;
+}
+
+.articulo-ong img {
+    width: 100%;
+}
+
+.fotos-ong{
+    display: flex;
+    margin: 30px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+
+.rrss{
+    display: flex;
+
+}
