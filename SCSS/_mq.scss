@@ -1,3 +1,4 @@
+
 /*tablet Servicios*/
 @media (min-width: 501px)and
        (max-width: 960px)
@@ -114,68 +115,107 @@
     
     
     /*Mobil Servicios*/
-    .individual, .diaria{
-       display: flex;   
-       flex-direction: column;
-       justify-content: center;
-   
-      }
-   
-      .individual div{
-          justify-content: center;
-   
-      }
-   
-      .titulo-individual, .titulo-compartido{
-          display: flex;
-          justify-content: center;
-      }
+
+    .estadia{
+
+        &-individual{
+            display: flex;   
+            flex-direction: column;
+            justify-content: center;
+            }
+
+        &-compartida{
+                display: flex;   
+                flex-direction: column;
+                justify-content: center;
+           
+               }   
+               
+        &-diaria{
+            display: flex;   
+            flex-direction: column;
+            justify-content: center;
+            }   
+            
+        }
+
+    .titulo{
+
+            &-individual{   
+                display: flex;
+                justify-content: center; 
+                }
+
+            &-compartida{ 
+                display: flex;
+                justify-content: center; 
+                }   
+            }     
+             
    
       .texto-servicios{
           display: flex;
           flex-direction: column;
    
       }
-   
-   
-      .parrafo-1, .parrafo-2{
-          margin: 10px;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          flex-wrap: wrap;
-          }
-   
-      .imagen-individual, .imagen-compartido
-      .imagen-diaria{
-          width: 100%;
-          display: flex;
-          justify-content: center;
-   
-      }    
-   
-      .imagen-individual img{
-          width: 450px;
-   
-      }
-   
-      .imagen-compartido img{
-       width: 450px;
-   
-   }
-   
-       .imagen-diaria img{
-           width: 450px;
-   
-       }
-      
-      .compartido{
-          display: flex;   
-          flex-direction: column;
-          justify-content: center;
+
+
+    .parrafo{
+
+        &-1{            
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-wrap: wrap;
+            }
+    
+
+        &-2{   
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-wrap: wrap; 
+            }   
+        }  
+
+        
+    .imagen{
+
+        &-individual{ 
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            }
+            
+                img{
+                width: 450px;
+                }
      
-         }
-         
+
+        &-compartida{ 
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            }
+
+                img{
+                    width: 450px;
+                    }
+
+        &-diaria{ 
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            } 
+
+            img{
+                width: 450px;
+                }
+    }       
+   
+
          
       /*Mobil Contacto*/   
        .art-contacto{
@@ -185,9 +225,7 @@
    
        .info-contacto{
            width: 100%;
-           padding: 10px;
-           margin: 20px;
-           display: flex;
+           @include espacios (10px, 20px);
            justify-content: center;
    
        }
@@ -199,6 +237,4 @@
    
        }
    
-   
-   
-   }
+    }

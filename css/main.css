@@ -8,8 +8,9 @@
 }
 
 h2 {
-  color: #6e03d3;
+  color: #8308f6;
   font-size: 24px;
+  font-weight: 700;
 }
 
 /* Estilo de los textos*/
@@ -52,7 +53,6 @@ h2 {
 }
 .articulo-index h2 {
   font-size: 30px;
-  font-weight: bold;
   margin: 10px;
 }
 
@@ -73,14 +73,6 @@ h2 {
   margin: 20px;
 }
 
-/*ojo buscar esta clase*/
-.container {
-  width: 100%;
-  margin: 0;
-  display: flex;
-  justify-content: space-evenly;
-}
-
 /* Articulo sercivios*/
 .container-servicios {
   display: flex;
@@ -92,7 +84,15 @@ h2 {
   justify-content: end;
 }
 
-.individual, .diaria {
+.estadia-individual {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.estadia-compartida {
+  display: flex;
+  flex-direction: row;
+}
+.estadia-diaria {
   display: flex;
   flex-direction: row-reverse;
 }
@@ -100,16 +100,16 @@ h2 {
 .texto-servicios {
   display: flex;
   margin: 20px;
+  flex-direction: column;
 }
 
-.parrafo-1, .parrafo-2 {
+.parrafo-1 {
   margin: 10px;
   display: flex;
 }
-
-.compartido {
+.parrafo-2 {
+  margin: 10px;
   display: flex;
-  flex-direction: row;
 }
 
 /* ESTILOS ONG*/
@@ -157,9 +157,9 @@ h2 {
   margin: 5px;
 }
 .articulo-nosotros h2 {
-  color: #6e03d3;
+  color: #8308f6;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 700;
   text-align: center;
 }
 
@@ -172,8 +172,8 @@ h2 {
 }
 
 .articulo-ong {
-  height: 250;
   width: 250px;
+  height: 250px;
 }
 .articulo-ong img {
   width: 100%;
@@ -195,14 +195,14 @@ h2 {
 .pie {
   background-color: #8308f6;
   font-size: 18px;
-  color: rgb(255, 255, 255);
   display: flex;
   color: #ffffff;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
-.pie p {
+
+p {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -288,15 +288,26 @@ h2 {
 /*Mobil*/
 @media (max-width: 500px) {
   /*Mobil Servicios*/
-  .individual, .diaria {
+  .estadia-individual {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  .individual div {
+  .estadia-compartida {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
   }
-  .titulo-individual, .titulo-compartido {
+  .estadia-diaria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .titulo-individual {
+    display: flex;
+    justify-content: center;
+  }
+  .titulo-compartida {
     display: flex;
     justify-content: center;
   }
@@ -304,31 +315,43 @@ h2 {
     display: flex;
     flex-direction: column;
   }
-  .parrafo-1, .parrafo-2 {
+  .parrafo-1 {
     margin: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
   }
-  .imagen-individual, .imagen-compartido .imagen-diaria {
+  .parrafo-2 {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .imagen-individual {
     width: 100%;
     display: flex;
     justify-content: center;
   }
-  .imagen-individual img {
+  .imagen img {
     width: 450px;
   }
-  .imagen-compartido img {
-    width: 450px;
-  }
-  .imagen-diaria img {
-    width: 450px;
-  }
-  .compartido {
+  .imagen-compartida {
+    width: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
+  }
+  .imagen img {
+    width: 450px;
+  }
+  .imagen-diaria {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .imagen img {
+    width: 450px;
   }
   /*Mobil Contacto*/
   .art-contacto {
@@ -338,7 +361,6 @@ h2 {
     width: 100%;
     padding: 10px;
     margin: 20px;
-    display: flex;
     justify-content: center;
   }
   .rrss {

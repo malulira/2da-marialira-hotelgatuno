@@ -1,13 +1,14 @@
 /*FOOTER*/
 .pie {
-    background-color: #8308f6;
+    background-color: $color-second;
     font-size: 18px;
-    color: rgb(255, 255, 255);
     display: flex;
-    color: #ffffff;
+    color: $color-text-pie;
     display: flex;
     justify-content: center;
     flex-direction: column;
+
+    }
 
     p{
         display: flex;
@@ -16,4 +17,3 @@
         margin-top: 10px;
      
     }
-}

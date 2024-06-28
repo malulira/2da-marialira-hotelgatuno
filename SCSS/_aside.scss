@@ -28,9 +28,9 @@
     }
 
     h2{
-        color: #6e03d3;
+        color:$color-second;
         font-size: 24px;
-        font-weight: bold;
+        font-weight: $bold;
         text-align: center;
         
     }
@@ -45,9 +45,8 @@
 }
 
 .articulo-ong {
-    height: 250;
-    width: 250px;
-
+    @include sizes (250px, 250px);
+    
     img {
         width: 100%;
     }
