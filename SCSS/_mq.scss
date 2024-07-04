@@ -111,8 +111,15 @@
 
 /*Tablet ONG*/
 
-.row{
 
+.titulo-ong{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.container-ong{
     margin: 20px;
     display: flex;
     flex-flow:row wrap;
@@ -121,17 +128,14 @@
 
 .imagen-ong{
     display: flex;
-    justify-content: center;
-    width: 100%;
+    align-items: center;
     @include espacios (0, 10px);
-
-    img{
-        width: 15em;
+    width: 100%;
 
 
-    }
-
+ 
 }
+
 
 .texto-ong{
     display: flex;
@@ -140,16 +144,22 @@
 
 }
 
-.titulo-ong{
+
+.articulo-ong{
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+
+    }
+
+
+/*Tablet Contacto*/
+
+.info-contacto{
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
-
+    margin: 10px;
 }
-
-
-
-
 
 /*Mobil*/
 
@@ -258,6 +268,19 @@
                 }
     }       
    
+     /*Mobil Ong*/   
+
+    .container-ong{
+        display: flex;
+        width: 90%;
+        }
+
+     .imagen-ong{
+        display: flex;
+        align-self: center;
+        width: 100%;
+     }    
+
 
          
       /*Mobil Contacto*/   
@@ -268,7 +291,7 @@
    
        .info-contacto{
            width: 100%;
-           @include espacios (10px, 20px);
+           @include espacios (10px, 10px);
            justify-content: center;
    
        }
@@ -280,4 +303,11 @@
    
        }
    
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        @include espacios (10px, 10px);
+    
     }

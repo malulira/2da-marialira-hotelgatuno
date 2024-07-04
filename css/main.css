@@ -126,9 +126,8 @@ h2 {
 }
 
 /* ESTILOS ONG*/
-.row {
+.container-ong {
   display: flex;
-  width: 100%;
 }
 
 .titulo-ong {
@@ -152,6 +151,13 @@ h2 {
   flex-wrap: wrap;
   width: 100%;
   margin: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
 }
 
 /*ASIDE HOME*/
@@ -207,7 +213,7 @@ h2 {
 }
 
 .art-contacto {
-  width: 250px;
+  width: 150px;
 }
 .art-contacto img {
   width: 100%;
@@ -308,7 +314,12 @@ p {
 }
 
 /*Tablet ONG*/
-.row {
+.titulo-ong {
+  display: flex;
+  justify-content: center;
+}
+
+.container-ong {
   margin: 20px;
   display: flex;
   flex-flow: row wrap;
@@ -316,13 +327,10 @@ p {
 
 .imagen-ong {
   display: flex;
-  justify-content: center;
-  width: 100%;
+  align-items: center;
   padding: 0;
   margin: 10px;
-}
-.imagen-ong img {
-  width: 15em;
+  width: 100%;
 }
 
 .texto-ong {
@@ -331,10 +339,17 @@ p {
   width: 100%;
 }
 
-.titulo-ong {
+.articulo-ong {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/*Tablet Contacto*/
+.info-contacto {
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
+  margin: 10px;
 }
 
 /*Mobil*/
@@ -405,6 +420,16 @@ p {
   .imagen img {
     width: 350px;
   }
+  /*Mobil Ong*/
+  .container-ong {
+    display: flex;
+    width: 90%;
+  }
+  .imagen-ong {
+    display: flex;
+    align-self: center;
+    width: 100%;
+  }
   /*Mobil Contacto*/
   .art-contacto {
     width: 120px;
@@ -412,13 +437,19 @@ p {
   .info-contacto {
     width: 100%;
     padding: 10px;
-    margin: 20px;
+    margin: 10px;
     justify-content: center;
   }
   .rrss {
     display: flex;
     justify-content: space-evenly;
   }
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */
