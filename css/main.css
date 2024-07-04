@@ -87,43 +87,65 @@ h2 {
 .estadia-individual {
   display: flex;
   flex-direction: row-reverse;
+  padding: 0;
+  margin: 10px;
 }
 .estadia-compartida {
   display: flex;
   flex-direction: row;
+  padding: 0;
+  margin: 10px;
 }
 .estadia-diaria {
   display: flex;
   flex-direction: row-reverse;
+  padding: 0;
+  margin: 10px;
 }
 
-.texto-servicios {
-  display: flex;
-  margin: 20px;
-  flex-direction: column;
+.imagen-individual {
+  padding: 0;
+  margin: 10px;
+}
+.imagen-compartida {
+  padding: 0;
+  margin: 10px;
+}
+.imagen-diaria {
+  padding: 0;
+  margin: 10px;
 }
 
 .parrafo-1 {
-  margin: 10px;
+  margin: 30px;
   display: flex;
 }
 .parrafo-2 {
-  margin: 10px;
+  margin: 30px;
   display: flex;
 }
 
 /* ESTILOS ONG*/
-.intro-ong {
-  margin: 10px;
+.row {
   display: flex;
+  width: 100%;
+}
+
+.titulo-ong {
+  margin: 30px;
 }
 
 .texto-ong {
   margin: 10px;
   display: flex;
-  flex-direction: column;
 }
 
+.imagen-ong {
+  margin: 20px;
+  display: flex;
+}
+
+/*Estilos Contacto*/
 .info-contacto {
   display: flex;
   justify-content: space-evenly;
@@ -166,14 +188,14 @@ h2 {
 /*ASIDE ONG*/
 .fotos-ong {
   display: flex;
-  margin: 30px;
+  margin: 30px 0 10px 0;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
 .articulo-ong {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 230px;
 }
 .articulo-ong img {
   width: 100%;
@@ -285,6 +307,36 @@ p {
   width: 450px;
 }
 
+/*Tablet ONG*/
+.row {
+  margin: 20px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.imagen-ong {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0;
+  margin: 10px;
+}
+.imagen-ong img {
+  width: 15em;
+}
+
+.texto-ong {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.titulo-ong {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 /*Mobil*/
 @media (max-width: 500px) {
   /*Mobil Servicios*/
@@ -335,7 +387,7 @@ p {
     justify-content: center;
   }
   .imagen img {
-    width: 450px;
+    width: 350px;
   }
   .imagen-compartida {
     width: 100%;
@@ -343,7 +395,7 @@ p {
     justify-content: center;
   }
   .imagen img {
-    width: 450px;
+    width: 350px;
   }
   .imagen-diaria {
     width: 100%;
@@ -351,7 +403,7 @@ p {
     justify-content: center;
   }
   .imagen img {
-    width: 450px;
+    width: 350px;
   }
   /*Mobil Contacto*/
   .art-contacto {

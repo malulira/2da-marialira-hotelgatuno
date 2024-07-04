@@ -109,9 +109,52 @@
         }
 
 
+/*Tablet ONG*/
+
+.row{
+
+    margin: 20px;
+    display: flex;
+    flex-flow:row wrap;
+
+}
+
+.imagen-ong{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    @include espacios (0, 10px);
+
+    img{
+        width: 15em;
+
+
+    }
+
+}
+
+.texto-ong{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.titulo-ong{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+
+
+
 
 /*Mobil*/
-@media (max-width: 500px){
+
+@media 
+(max-width: 500px){
     
     
     /*Mobil Servicios*/
@@ -190,7 +233,7 @@
             }
             
                 img{
-                width: 450px;
+                width: 350px;
                 }
      
 
@@ -201,7 +244,7 @@
             }
 
                 img{
-                    width: 450px;
+                    width: 350px;
                     }
 
         &-diaria{ 
@@ -211,7 +254,7 @@
             } 
 
             img{
-                width: 450px;
+                width: 350px;
                 }
     }       
    

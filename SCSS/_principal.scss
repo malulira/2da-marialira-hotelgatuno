@@ -100,42 +100,53 @@ h2 {color: $color-second;
 
      
 .estadia{
-    
+
     &-individual{
         display: flex;
         flex-direction: row-reverse;
+        @include espacios (0,10px);
+     
     }
 
     &-compartida{
         display: flex;
         flex-direction: row;
+        @include espacios (0,10px);
     }    
 
     &-diaria{   
         display: flex;
         flex-direction: row-reverse;
+        @include espacios (0,10px);
     } 
 
 }
 
+.imagen{
 
-.texto-servicios{
-    display: flex;
-    margin: 20px;
-    flex-direction: column;
-    }
-    
+    &-individual{
+        @include espacios (0,10px);
+        }
+
+    &-compartida{
+        @include espacios (0,10px);
+        }  
+
+    &-diaria{
+        @include espacios (0,10px);
+        }      
+    }   
 
 .parrafo{
 
     &-1{
-        margin: 10px;
+        margin: 30px;
         display: flex;
-                       
+                           
         }
 
     &-2{
-        margin: 10px;
+        margin: 30px;
         display: flex;
         
         }
@@ -145,19 +156,35 @@ h2 {color: $color-second;
 
 /* ESTILOS ONG*/
 
-.intro-ong{
-    margin: 10px;
-    display: flex;
 
+.row{
+    display: flex;
+    width: 100%;
+
+}
+
+
+.titulo-ong{
+    margin: 30px;
 
 }
 
 .texto-ong{
     margin: 10px;
     display: flex;
-    flex-direction: column;
-
+   
 }
+
+.imagen-ong{
+    margin: 20px;
+    display: flex;
+
+ 
+
+    }
+ 
+
+/*Estilos Contacto*/
 
 .info-contacto{
     display: flex;
