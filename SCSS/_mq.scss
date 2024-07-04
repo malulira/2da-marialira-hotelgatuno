@@ -118,12 +118,11 @@
 
 }
 
-
 .container-ong{
     margin: 20px;
     display: flex;
     flex-flow:row wrap;
-
+   
 }
 
 .imagen-ong{
@@ -132,8 +131,6 @@
     @include espacios (0, 10px);
     width: 100%;
 
-
- 
 }
 
 
@@ -143,13 +140,6 @@
     width: 100%;
 
 }
-
-
-.articulo-ong{
-    display: flex;
-    flex-wrap: wrap;
-
-    }
 
 
 /*Tablet Contacto*/

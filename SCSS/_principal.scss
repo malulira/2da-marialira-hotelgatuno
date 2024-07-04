@@ -157,30 +157,32 @@ h2 {color: $color-second;
 /* ESTILOS ONG*/
 
 
-.container-ong{
-    display: flex;
-         
-}   
-
-
 .titulo-ong{
     margin: 30px;
 
 }
 
-.texto-ong{
-    margin: 10px;
+.container-ong{
     display: flex;
-             
-}
+    flex-direction: column;
+         
+}  
 
 .imagen-ong{
     margin: 20px;
     display: flex;
   
-
-    }
+}
  
+
+.texto-ong{
+    margin: 10px;
+    display: flex;
+    width: 150px;
+             
+}
+
+
 
 /*Estilos Contacto*/
 
