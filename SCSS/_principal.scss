@@ -1,6 +1,6 @@
 h2 {color: $color-second;
     font-size: 24px;
-    font-weight: $bold;
+    font-weight: bold;
 }
 
 /* Estilo de los textos*/
@@ -165,7 +165,7 @@ h2 {color: $color-second;
 .container-ong{
     display: flex;
     flex-direction: column;
-         
+            
 }  
 
 .imagen-ong{
@@ -173,7 +173,7 @@ h2 {color: $color-second;
     display: flex;
   
 }
- 
+
 
 .texto-ong{
     margin: 10px;
