@@ -146,10 +146,18 @@
 
 .info-contacto{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    margin: 10px;
+    @include espacios (0, 0);  
 }
+
+.rrss{
+    display: flex;
+    justify-content: center;
+
+}
+
 
 /*Mobil*/
 
@@ -281,7 +289,7 @@
    
        .info-contacto{
            width: 100%;
-           @include espacios (10px, 10px);
+           @include espacios (0, 0);
            justify-content: center;
    
        }

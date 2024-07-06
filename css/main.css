@@ -358,9 +358,16 @@ p {
 /*Tablet Contacto*/
 .info-contacto {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   width: 100%;
-  margin: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.rrss {
+  display: flex;
+  justify-content: center;
 }
 
 /*Mobil*/
@@ -447,8 +454,8 @@ p {
   }
   .info-contacto {
     width: 100%;
-    padding: 10px;
-    margin: 10px;
+    padding: 0;
+    margin: 0;
     justify-content: center;
   }
   .rrss {
