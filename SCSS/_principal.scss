@@ -156,7 +156,6 @@ h2 {color: $color-second;
 
 /* ESTILOS ONG*/
 
-
 .titulo-ong{
     margin: 30px;
 
@@ -165,7 +164,6 @@ h2 {color: $color-second;
 .container-ong{
     display: flex;
     flex-direction: column;
-    
             
 }  
 
@@ -179,10 +177,8 @@ h2 {color: $color-second;
 .texto-ong{
     margin: 10px;
     display: flex;
-  
-               
+             
 }
-
 
 
 /*Estilos Contacto*/
@@ -195,10 +191,10 @@ h2 {color: $color-second;
     margin: 50px;
 }
 
-.form{
+.formulario{
     display: flex;
     flex-direction: column;
-    @include espacios (10px, 10px);
+    @include espacios (20px, 30px);
 
 }
 

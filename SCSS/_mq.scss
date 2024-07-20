@@ -48,8 +48,6 @@
 
      }
 
-
-
     .texto-servicios{
         display: flex;
         flex-direction: column;
@@ -77,6 +75,7 @@
     }
 
     .imagen{
+        
         &-individual{
             width: 100%;
             display: flex;
@@ -111,7 +110,6 @@
 
 /*Tablet ONG*/
 
-
 .titulo-ong{
     display: flex;
     justify-content: center;
@@ -133,14 +131,12 @@
 
 }
 
-
 .texto-ong{
     display: flex;
     justify-content: center;
     width: 100%;
 
 }
-
 
 /*Tablet Contacto*/
 
@@ -157,7 +153,6 @@
     justify-content: center;
 
 }
-
 
 /*Mobil*/
 
@@ -278,9 +273,7 @@
         align-self: center;
         width: 100%;
      }    
-
-
-         
+  
       /*Mobil Contacto*/   
        .art-contacto{
            width: 120px;

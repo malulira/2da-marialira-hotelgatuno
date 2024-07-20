@@ -21,8 +21,7 @@
     <!--Animate-->
     <link
     rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!--Pagina de Estilos CSS-->
     <link rel="stylesheet" href="../css/main.css">
     <title>Contacto - Hotel Gatuno</title>
@@ -56,24 +55,26 @@
             8m2!3d-34.6061257!4d-58.4353388!16s%2Fm%2F05msx0w?entry=ttu">
            </iframe>
         </article>
-        <article class="form">
-          <form action="form.php" method="POST">
-            <label for="">Nombre y Apellido</label>
-            <input type="text" name="Nombre" id="Nombre" placeholder="Nombre y Apellido">
-            <label for="">Contraseña</label>
-            <input type="password" name="" id="" placeholder="Contraseña">
-            <select name="" id="">
-                <option value="">Hablar con ONG</option>
-                <option value="">Hablar con Hotel Gatuno </option>
-            </select>
-            <p>Mensaje</p>
-            <textarea name="" id=""  cols="30">
-            </textarea> 
-            <p>Acepto terminos y condiciones</p>
-            <input type="checkbox" name="" id="">
-            <input type="submit" value="enviar">      
-          </form>
-        </article>
+        <!--formulario-->
+        <article class="formulario">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text"></div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </article>
+        <!--formulario-->
       </section>
     </main>
     <aside>
